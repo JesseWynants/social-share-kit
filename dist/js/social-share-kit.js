@@ -171,7 +171,7 @@ var SocialShareKit = (function () {
                 break;
             case 'twitter':
                 url = 'https://twitter.com/share?url=' + shareUrlEnc +
-                    '&text=' + encodeURIComponent(title + (text && title ? ' - ' : '') + text);
+                    '&text=' + encodeURIComponent(text ? text : title);
                 via = via || getMetaContent('twitter:site');
                 if (via)
                     url += '&via=' + via.replace('@', '');
@@ -181,7 +181,7 @@ var SocialShareKit = (function () {
                 break;
             case 'pinterest':
                 url = 'https://pinterest.com/pin/create/button/?url=' + shareUrlEnc +
-                    '&description=' + encodeURIComponent(text);
+                    '&description=' + encodeURIComponent(text ? text : title);
                 image = image || getMetaContent('og:image');
                 if (image)
                     url += '&media=' + encodeURIComponent(image);
