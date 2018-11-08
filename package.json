@@ -1,0 +1,29 @@
+{
+  "name": "social-share-kit",
+  "version": "1.0.7",
+  "description": "Prezly's fork of Social Share Kit",
+  "main": "dist/js/social-share-kit.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prezly/social-share-kit.git"
+  },
+  "keywords": [
+    "Prezly",
+    "social",
+    "share",
+    "SSK",
+    "fork"
+  ],
+  "author": "Kaspars Sprogis <darklow@gmail.com> (https://github.com/darklow)",
+  "license": "Creative Commons Attribution-NonCommercial 3.0",
+  "bugs": {
+    "url": "https://github.com/prezly/social-share-kit/issues"
+  },
+  "homepage": "https://github.com/prezly/social-share-kit#readme"
+}
